@@ -1,0 +1,21 @@
+@media screen and (min-width: 1300px) {
+    header + div p span:first-child {
+        display: none;
+    }
+    header + div p span:last-child {
+        display: initial;
+    }
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+        to {
+            width: 1230px;
+        }
+    }
+
+    section:last-child div {
+        width: 1000px;
+        margin: auto;
+    }
+}

@@ -1,0 +1,55 @@
+@media screen and (min-width: 600px) {
+    /* body */
+    body {
+        font-family: "Comic Neue", cursive;
+        margin: auto;
+    }
+
+    /* header */
+
+    header {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 175%;
+    }
+    header div:first-child p {
+        font-size: 100%;
+    }
+
+    header div:last-child .icon {
+        font-size: 24px;
+        margin: 5px;
+    }
+    /* info */
+    header + div {
+        font-size: 100%;
+    }
+
+    header + div p span:first-child {
+        display: initial;
+    }
+
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+        to {
+            width: 502px;
+        }
+    }
+
+    /* section */
+
+    section:first-child div:first-child,
+    section:first-child div:last-child {
+        padding: 20px;
+    }
+    h2 {
+        font-size: 135%;
+    }
+    li {
+        font-size: 100%;
+    }
+}
