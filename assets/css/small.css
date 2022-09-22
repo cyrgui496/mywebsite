@@ -5,7 +5,7 @@ body {
 }
 
 /* header */
-header {
+.header {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -14,34 +14,66 @@ header {
     color: #fff;
 }
 
-header div:first-child {
+.header_tiltleContainer {
     text-align: center;
 }
 
-h1 {
+.header_tiltleContainer_title {
     margin: 0;
     font-size: 125%;
     font-weight: normal;
 }
 
-header div:first-child p {
+.header_tiltleContainer_subTitle {
     margin: 0;
     font-size: 75%;
 }
 
-header div:last-child {
+.header_linkIconContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-header div:last-child .icon {
+.header_linkIconContainer_link_icon {
+    color: #fff;
+}
+
+/* nav */
+
+.nav {
+    background-color: #669999;
+    border-top: 1px solid #262626;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_linkContainer {
+    text-align: center;
+    width: 150px;
+}
+
+.nav_linkContainer_link {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 75%;
+}
+
+.nav_linkContainer_link:hover {
+    text-decoration: underline;
+}
+
+.nav_linkIconContainer_link_icon {
     color: #fff;
 }
 
 /* info */
-header + div {
+.info {
     background-color: #262626;
     padding: 10px;
     font-family: "Inconsolata", monospace;
@@ -52,21 +84,21 @@ header + div {
     align-items: center;
 }
 
-header + div p {
+.info_message {
     overflow: hidden;
     border-right: 0.15em solid #33ff33;
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: 0.15em;
-    animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite;
+    animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
     display: inline;
 }
 
-header + div p span:first-child {
+.info_message_mediumScreen {
     display: none;
 }
 
-header + div p span:last-child {
+.info_message_largeScreen {
     display: none;
 }
 
@@ -83,8 +115,8 @@ header + div p span:last-child {
         border-color: transparent;
     }
 }
-/* section1 */
-section:first-child {
+/* first section */
+.main_firstSection {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -92,109 +124,116 @@ section:first-child {
     background-color: #7fffd4;
 }
 
-section:first-child div:first-child,
-section:first-child div:last-child {
+.main_firstSection_container {
     padding: 10px;
+    max-width: 600px;
 }
 
-h2 {
+.main_firstSection_container_title {
     font-size: 95%;
     font-weight: normal;
     text-align: center;
 }
 
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    margin: 0;
-    padding: 0;
+.main_firstSection_container_table_row_col {
     font-size: 75%;
+    vertical-align: baseline;
 }
 
-li .icon {
-    margin: 5px;
-}
-
-section:first-child div:last-child img {
+.main_firstSection_container_image {
     object-fit: cover;
     max-width: 400px;
     width: 100%;
     height: auto;
 }
 
-/* section2 */
-section:last-child {
+/* second section */
+.main_secondSection {
     background-color: #a181a1;
     padding: 10px;
     color: white;
 }
 
-section:last-child div .icon {
+.main_secondSection_title {
+    font-size: 95%;
+    font-weight: normal;
+    text-align: center;
+}
+
+.main_secondSection_itemContainer_item_icon {
     margin: 20px;
     font-size: 50px;
 }
 
-.orangered {
+.main_secondSection_itemContainer_item_orangeredIcon {
     color: #ff4500;
 }
 
-.blue {
+.main_secondSection_itemContainer_item_blueIcon {
     color: #0000ff;
 }
 
-.violet {
+.main_secondSection_itemContainer_item_violetIcon {
     color: #ee82ee;
 }
 
-.white {
+.main_secondSection_itemContainer_item_whiteIcon {
     color: #fff;
 }
 
-.yellow {
+.main_secondSection_itemContainer_item_yellowIcon {
     color: #ffff00;
 }
 
-.green {
+.main_secondSection_itemContainer_item_greenIcon {
     color: #008000;
 }
 
-.limegreen {
+.main_secondSection_itemContainer_item_limegreenIcon {
     color: #32cd32;
 }
 
 /* footer */
 
-footer {
+.footer {
     background-color: #4169e1;
     padding: 10px;
     color: #fff;
 }
 
-footer div:only-child {
-    max-width: 1200px;
-    margin: auto;
+.footer_container_title {
+    font-weight: normal;
+    font-size: 85%;
 }
 
-form div {
+.footer_container_form_container {
     margin-bottom: 20px;
 }
 
-label {
+.footer_container_form_container_emailLabel {
     display: block;
+    font-size: 75%;
+    margin-bottom: 5px;
 }
 
-input {
+.footer_container_form_container_emailInput {
     max-width: 300px;
     width: 100%;
     border: 1px solid #262626;
     border-radius: 5px;
 }
 
-textarea {
+.footer_container_form_container_emailInput:focus {
+    outline: none;
+}
+
+.footer_container_form_container_messageLabel {
+    display: block;
+    font-size: 75%;
+    margin-bottom: 5px;
+}
+
+.footer_container_form_container_inputMessage {
     width: 100%;
     height: 200px;
     resize: none;
@@ -202,20 +241,20 @@ textarea {
     border-radius: 5px;
 }
 
-input:focus,
-textarea:focus {
+.footer_container_form_container_inputMessage:focus {
     outline: none;
 }
 
-form div:last-child {
-    text-align: end;
+.footer_container_form_containerButtonContainer {
+    display: flex;
+    justify-content: flex-end;
 }
 
-form div:last-child div {
+.footer_container_form_containerButtonContainer_buttonContainer {
     width: 60px;
 }
 
-button {
+.footer_container_form_containerButtonContainer_buttonContainer_button {
     border: 1px solid #262626;
     background-color: #fff;
     color: #262626;
@@ -223,16 +262,35 @@ button {
     border-radius: 5px;
     padding: 5px;
     width: 60px;
+    font-size: 75%;
 }
 
-form p {
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     text-align: center;
 }
 
-#success {
-    color: #00cc00;
+.popup_container__displayNone {
+    display: none;
 }
 
-#unsuccess {
-    color: #ff3333;
+.popup_container__displayBlock {
+    background-color: #262626;
+    padding: 10px;
+}
+
+.popup_container_iconContainer {
+    text-align: end;
+}
+
+.popup_container_iconContainer_icon {
+    color: white;
+}
+
+.popup_container_status {
+    color: white;
+    font-size: 75%;
 }

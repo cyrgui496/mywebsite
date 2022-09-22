@@ -7,27 +7,47 @@
 
     /* header */
 
-    header {
+    .header {
         padding: 20px;
     }
 
-    h1 {
+    .header_tiltleContainer_title {
         font-size: 175%;
     }
-    header div:first-child p {
+    .header_tiltleContainer_subTitle {
         font-size: 100%;
     }
 
-    header div:last-child .icon {
+    .header_linkIconContainer_link_icon {
         font-size: 24px;
         margin: 5px;
     }
-    /* info */
-    header + div {
+
+    /* nav */
+
+    .nav_linkContainer {
+        width: 200px;
+    }
+
+    .nav_linkContainer_link {
         font-size: 100%;
     }
 
-    header + div p span:first-child {
+    .nav_linkIconContainer_link_icon {
+        font-size: 24px;
+        margin-left: -22.5px;
+    }
+
+    /* info */
+    .info {
+        font-size: 100%;
+    }
+
+    .info_message_smallScreen {
+        display: none;
+    }
+
+    .info_message_mediumScreen {
         display: initial;
     }
 
@@ -40,16 +60,49 @@
         }
     }
 
-    /* section */
+    /* first section */
 
-    section:first-child div:first-child,
-    section:first-child div:last-child {
+    .main_firstSection_container {
         padding: 20px;
     }
-    h2 {
+    .main_firstSection_container_title {
         font-size: 135%;
     }
-    li {
+
+    .main_firstSection_container_table_row_col {
+        font-size: 100%;
+    }
+
+    /* second section */
+    .main_secondSection_title {
+        font-size: 135%;
+    }
+
+    /* footer */
+
+    .footer_container {
+        max-width: 600px;
+        margin: auto;
+    }
+
+    .footer_container_title {
+        font-size: 125%;
+    }
+
+    .footer_container_form_container_emailLabel {
+        font-size: 100%;
+    }
+
+    .footer_container_form_container_messageLabel {
+        font-size: 100%;
+    }
+
+    .footer_container_form_containerButtonContainer_buttonContainer {
+        width: 75px;
+    }
+
+    .footer_container_form_containerButtonContainer_buttonContainer_button {
+        width: 75px;
         font-size: 100%;
     }
 }
