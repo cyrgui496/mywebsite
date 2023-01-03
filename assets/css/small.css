@@ -10,7 +10,7 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 10px;
-    background-color: #9370db;
+    background-color: #6C35CA;
     color: #fff;
 }
 
@@ -112,9 +112,9 @@ body {
 
 /* second section */
 .main_secondSection {
-    background-color: #a181a1;
+    background-color: #7B457F;
     padding: 10px;
-    color: white;
+    color: #fff;
 }
 
 .main_secondSection_title {
