@@ -1,437 +1,205 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <!-- favicon -->
-        <link rel="icon" href="assets/images/favicon.png" />
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <!-- cdn -->
+    <!-- favicon -->
+    <link rel="icon" href="assets/images/favicon.png" />
 
-        <!-- google font -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Inconsolata&display=swap"
-            rel="stylesheet"
-        />
+    <!-- cdn -->
 
-        <!-- font awesome -->
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Inconsolata&display=swap" rel="stylesheet" />
 
-        <!-- owl.carousel.min.css -->
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-            integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <!-- owl.theme.default.min.css -->
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-            integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        />
+    <!-- owl.carousel.min.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <!-- jquery.min.js -->
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
-            integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        ></script>
+    <!-- owl.theme.default.min.css -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <!-- owl.carousel.min.js -->
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-            integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        ></script>
+    <!-- jquery.min.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="assets/css/small.css" />
-        <link rel="stylesheet" href="assets/css/medium.css" />
-        <link rel="stylesheet" href="assets/css/large.css" />
+    <!-- owl.carousel.min.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-        <title>Cyril Guillemin</title>
-    </head>
-    <body>
-        <!-- header -->
-        <header class="header">
-            <div class="header_tiltleContainer">
-                <h1 class="header_tiltleContainer_title">Cyril Guillemin</h1>
-                <p class="header_tiltleContainer_subTitle">
-                    Etudiant OPENCLASSROOMS
-                </p>
-            </div>
-            <div class="header_linkIconContainer">
-                <a
-                    class="header_linkIconContainer_link"
-                    href="https://www.linkedin.com/in/cyril-guillemin-a94210251"
-                    target="_blank"
-                    ><i
-                        class="fa-brands fa-linkedin header_linkIconContainer_link_icon"
-                    ></i
-                ></a>
-                <a
-                    class="header_linkIconContainer_link"
-                    href="https://github.com/cyrgui496"
-                    target="_blank"
-                    ><i
-                        class="fa-brands fa-github header_linkIconContainer_link_icon"
-                    ></i
-                ></a>
-            </div>
-        </header>
-        <!-- nav -->
-        <nav class="nav">
-            <div class="nav_linkContainer">
-                <a class="nav_linkContainer_link" href="index.html">Acceuil</a>
-                <a class="nav_linkContainer_link" href="monCV.html">Mon CV</a>
-            </div>
-            <div class="nav_linkIconContainer">
-                <a
-                    class="nav_linkIconContainer_link"
-                    href="assets/pdf/monCV.pdf"
-                    target="_blank"
-                    ><i
-                        class="fa-solid fa-file-pdf nav_linkIconContainer_link_icon"
-                    ></i
-                ></a>
-            </div>
-        </nav>
-        <!-- info -->
-        <div class="info">
-            <p class="info_message">
-                <span class="info_message_smallScreen"
-                    >Hello and welcome !</span
-                >
-                <span class="info_message_mediumScreen">
-                    Hello and welcome ! My name is Cyril, delighted.
-                </span>
-                <span class="info_message_largeScreen"
-                    >Hello and welcome ! Ce site me servira je l'espère à
-                    trouver ma première mission post formation dév web
-                    OPENCLASSROOMS.</span
-                >
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/small.css" />
+    <link rel="stylesheet" href="assets/css/medium.css" />
+    <link rel="stylesheet" href="assets/css/large.css" />
+
+    <title>Cyril Guillemin</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="header_tiltleContainer">
+            <h1 class="header_tiltleContainer_title">Cyril Guillemin</h1>
+            <p class="header_tiltleContainer_subTitle">
+                My personal web site
             </p>
         </div>
-        <!-- main -->
-        <main class="main">
-            <!-- first section -->
-            <section class="main_firstSection">
-                <div class="main_firstSection_container">
-                    <h2 class="main_firstSection_container_title">
-                        Compétences en cours d'aquisitions
-                    </h2>
-                    <table class="main_firstSection_container_table">
-                        <tr class="main_firstSection_container_table_row">
-                            <td
-                                class="main_firstSection_container_table_row_col"
-                            >
-                                <i
-                                    class="fa-solid fa-check main_firstSection_container_table_row_col_icon"
-                                ></i>
-                            </td>
-                            <td
-                                class="main_firstSection_container_table_row_col"
-                            >
-                                Découper, assembler et intégrer tous les
-                                éléments d’une maquette graphique en HTML5 et
-                                CSS ;
-                            </td>
-                        </tr>
-                        <tr class="main_firstSection_container_table_row">
-                            <td
-                                class="main_firstSection_container_table_row_col"
-                            >
-                                <i
-                                    class="fa-solid fa-check main_firstSection_container_table_row_col_icon"
-                                ></i>
-                            </td>
-                            <td
-                                class="main_firstSection_container_table_row_col"
-                            >
-                                ajouter du contenu audio et vidéo en HTML5 ;
-                            </td>
-                        </tr>
-                        <tr class="main_firstSection_container_table_row">
-                            <td
-                                class="main_firstSection_container_table_row_col"
-                            >
-                                <i
-                                    class="fa-solid fa-check main_firstSection_container_table_row_col_icon"
-                                ></i>
-                            </td>
-                            <td
-                                class="main_firstSection_container_table_row_col"
-                            >
-                                animer les pages web avec CSS3 ;
-                            </td>
-                        </tr>
-                        <tr class="main_firstSection_container_table_row">
-                            <td
-                                class="main_firstSection_container_table_row_col"
-                            >
-                                <i
-                                    class="fa-solid fa-check main_firstSection_container_table_row_col_icon"
-                                ></i>
-                            </td>
-                            <td
-                                class="main_firstSection_container_table_row_col"
-                            >
-                                appliquer les standards du web et les normes en
-                                vigueur ;
-                            </td>
-                        </tr>
-                        <tr class="main_firstSection_container_table_row">
-                            <td
-                                class="main_firstSection_container_table_row_col"
-                            >
-                                <i
-                                    class="fa-solid fa-check main_firstSection_container_table_row_col_icon"
-                                ></i>
-                            </td>
-                            <td
-                                class="main_firstSection_container_table_row_col"
-                            >
-                                construire un site web fluide s’adaptant à tout
-                                type d’écran (web, smartphone et tablette) ;
-                            </td>
-                        </tr>
-                        <tr class="main_firstSection_container_table_row">
-                            <td
-                                class="main_firstSection_container_table_row_col"
-                            >
-                                <i
-                                    class="fa-solid fa-check main_firstSection_container_table_row_col_icon"
-                                ></i>
-                            </td>
-                            <td
-                                class="main_firstSection_container_table_row_col"
-                            >
-                                améliorer le référencement naturel en utilisant
-                                les balises selon leur sémantique ;
-                            </td>
-                        </tr>
-                        <tr class="main_firstSection_container_table_row">
-                            <td
-                                class="main_firstSection_container_table_row_col"
-                            >
-                                <i
-                                    class="fa-solid fa-check main_firstSection_container_table_row_col_icon"
-                                ></i>
-                            </td>
-                            <td
-                                class="main_firstSection_container_table_row_col"
-                            >
-                                faire réagir la page web en fonction des actions
-                                de l’utilisateur en JavaScript ;
-                            </td>
-                        </tr>
-                        <tr class="main_firstSection_container_table_row">
-                            <td
-                                class="main_firstSection_container_table_row_col"
-                            >
-                                <i
-                                    class="fa-solid fa-check main_firstSection_container_table_row_col_icon"
-                                ></i>
-                            </td>
-                            <td
-                                class="main_firstSection_container_table_row_col"
-                            >
-                                se connecter à un service web pour exploiter des
-                                données tierces (API) ;
-                            </td>
-                        </tr>
-                        <tr class="main_firstSection_container_table_row">
-                            <td
-                                class="main_firstSection_container_table_row_col"
-                            >
-                                <i
-                                    class="fa-solid fa-check main_firstSection_container_table_row_col_icon"
-                                ></i>
-                            </td>
-                            <td
-                                class="main_firstSection_container_table_row_col"
-                            >
-                                gérer les comptes utilisateurs ;
-                            </td>
-                        </tr>
-                        <tr class="main_firstSection_container_table_row">
-                            <td
-                                class="main_firstSection_container_table_row_col"
-                            >
-                                <i
-                                    class="fa-solid fa-check main_firstSection_container_table_row_col_icon"
-                                ></i>
-                            </td>
-                            <td
-                                class="main_firstSection_container_table_row_col"
-                            >
-                                concevoir un site maintenable grâce à la gestion
-                                des erreurs et exceptions ;
-                            </td>
-                        </tr>
-                        <tr class="main_firstSection_container_table_row">
-                            <td
-                                class="main_firstSection_container_table_row_col"
-                            >
-                                <i
-                                    class="fa-solid fa-check main_firstSection_container_table_row_col_icon"
-                                ></i>
-                            </td>
-                            <td
-                                class="main_firstSection_container_table_row_col"
-                            >
-                                créer, gérer et afficher le contenu d’une base
-                                de données.
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="main_firstSection_container">
-                    <h2 class="main_firstSection_container_title">
-                        Ma méthodologie de travail
-                    </h2>
-                    <img
-                        class="main_firstSection_container_image"
-                        src="assets/images/methode.png"
-                        alt="Shéma de ma méthode de travail"
-                    />
-                </div>
-            </section>
-            <!-- second section -->
-            <section class="main_secondSection">
-                <h2 class="main_secondSection_title">
-                    Technologies en cours d'aquisitions
-                </h2>
-                <div
-                    class="owl-carousel owl-theme main_secondSection_container"
-                >
-                    <div class="item main_secondSection_container_item">
-                        <i
-                            class="fa-brands fa-html5 main_secondSection_itemContainer_item_icon main_secondSection_itemContainer_item_orangeredIcon"
-                        ></i>
-                    </div>
-                    <div class="item main_secondSection_itemContainer_item">
-                        <i
-                            class="fa-brands fa-css3-alt main_secondSection_itemContainer_item_icon main_secondSection_itemContainer_item_blueIcon"
-                        ></i>
-                    </div>
-                    <div class="item main_secondSection_itemContainer_item">
-                        <i
-                            class="fa-brands fa-sass main_secondSection_itemContainer_item_icon main_secondSection_itemContainer_item_violetIcon"
-                        ></i>
-                    </div>
-                    <div class="item main_secondSection_itemContainer_item">
-                        <i
-                            class="fa-brands fa-js main_secondSection_itemContainer_item_icon main_secondSection_itemContainer_item_yellowIcon"
-                        ></i>
-                    </div>
-                    <div class="item main_secondSection_itemContainer_item">
-                        <i
-                            class="fa-brands fa-vuejs main_secondSection_itemContainer_item_icon main_secondSection_itemContainer_item_whiteIcon"
-                        ></i>
-                    </div>
-                    <div class="item main_secondSection_itemContainer_item">
-                        <i
-                            class="fa-brands fa-node main_secondSection_itemContainer_item_icon main_secondSection_itemContainer_item_greenIcon"
-                        ></i>
-                    </div>
-                    <div class="item main_secondSection_itemContainer_item">
-                        <i
-                            class="fa-brands fa-envira main_secondSection_itemContainer_item_icon main_secondSection_itemContainer_item_limegreenIcon"
-                        ></i>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <!-- footer -->
-        <footer class="footer">
-            <div class="footer_container">
-                <h3 class="footer_container_title">Me contacter</h3>
-                <form
-                    class="footer_container_form"
-                    id="form"
-                    action="https://formspree.io/f/maykqrlv"
-                    method="POST"
-                >
-                    <div class="footer_container_form_container">
-                        <label
-                            class="footer_container_form_container_emailLabel"
-                            for="email"
-                            >Votre email</label
-                        >
-                        <input
-                            class="footer_container_form_container_emailInput"
-                            type="email"
-                            id="email"
-                            name="email"
-                            required
-                        />
-                    </div>
-                    <div class="footer_container_form_container">
-                        <label
-                            class="footer_container_form_container_messageLabel"
-                            for="message"
-                            >Votre message</label
-                        >
-                        <textarea
-                            class="footer_container_form_container_inputMessage"
-                            id="message"
-                            name="message"
-                            required
-                        ></textarea>
-                    </div>
-                    <div class="footer_container_form_containerButtonContainer">
-                        <div
-                            class="footer_container_form_containerButtonContainer_buttonContainer"
-                        >
-                            <button
-                                class="footer_container_form_containerButtonContainer_buttonContainer_button"
-                                type="submit"
-                                id="submitButton"
-                            >
-                                Envoyer
-                            </button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </footer>
-        <!-- popup -->
-        <div class="popup">
-            <div class="popup_container__displayNone">
-                <div class="popup_container_iconContainer">
-                    <span id="popupCloseIcon"
-                        ><i
-                            class="fa-solid fa-xmark popup_container_iconContainer_icon"
-                        ></i
-                    ></span>
-                </div>
-
-                <p class="popup_container_status" id="status"></p>
-            </div>
+        <div class="header_linkIconContainer">
+            <a class="header_linkIconContainer_link" href="https://www.linkedin.com/in/cyril-guillemin-a94210251"
+                target="_blank"><i class="fa-brands fa-linkedin header_linkIconContainer_link_icon"></i></a>
+            <a class="header_linkIconContainer_link" href="https://github.com/cyrgui496" target="_blank"><i
+                    class="fa-brands fa-github header_linkIconContainer_link_icon"></i></a>
         </div>
+    </header>
+    <!-- info -->
+    <div class="info">
+        <p class="info_message">
+            <span class="info_message_smallScreen">Hello and welcome !</span>
+            <span class="info_message_mediumScreen">
+                Hello and welcome ! My name is Cyril, delighted.
+            </span>
+            <span class="info_message_largeScreen">Part l'intermédiaire de ce site je vous propose de vous présenter mon
+                projet professionnel.</span>
+        </p>
+    </div>
+    <!-- main -->
+    <main class="main">
+        <!-- first section -->
+        <section class="main_firstSection">
+            <div class="main_firstSection_container">
+                <h2 class="main_firstSection_container_title">Ma présentation</h2>
+                <p class="main_firstSection_container_paragraph">Je suis Cyril Guillemin, après avoir validé une licence
+                    sciences et
+                    techniques en 2010 de l'INSSET (UPJV) je rencontre des soucis de santé. Cela se traduit aujourd'hui
+                    par
+                    une RQTH bien que j'ai retrouvé une très belle autonomie. Quelque peu familiarisé avec la
+                    programmation
+                    je décide y a pas si longtemps de me former au métier de développeur web. Aujourd'hui a mis chemin
+                    de la
+                    fin de cette formation, mon projet de reconversion professionnel se dessine.</p>
+                <p class="main_firstSection_container_paragraph">En effet je souhaite devenir développeur front end
+                    freelance, ainsi
+                    je compte poursuivre ma formation de développeur intégrateur web avec le titre professionnel
+                    concepteur
+                    d'application JavaScript React. Après cela je ferais les démarche pour devenir freelance.</p>
+                <p class="main_firstSection_container_paragraph">A titre d'information complémentaire pour suivre ces
+                    formations j'ai choisis OpenClassrooms. En fait j'ai débuté la programmation à l'époque sur le site
+                    du zéro (qui est devenue OpenClassrooms), j'y ai beaucoup apris alors je me suis dis pourquoi ne pas
+                    se former dans cette école. En plus OpenClassrooms propose des parcours diplômants dans d'autre
+                    domaine qui m'intéresse et tout les cours sont en accès libre. Aujourd'hui je suis sûr d'avoir fait
+                    le
+                    bon choix, j'ai déjà acquis pas mal de compétence.</p>
+            </div>
+            <div class="main_firstSection_container">
+                <h2 class="main_firstSection_container_title">Ma méthodologie de travail</h2>
+                <p class="main_firstSection_container_paragraph">Je découpe toujours le travail en petite tâche à
+                    réaliser. Ensuite j'étudie une solution convenable et si je besoin je me forme, c'est la phase des
+                    choix techniques. Je passe dès que cette dernière phase est terminer au développement en méforcant
+                    de coder proprement en utilisant les commentaires, le but étant de réaliser des script réutilisable,
+                    maintenable et compréhensible. Puis je termine par des tests, est - ce que mon progrmme et en
+                    adéquation avec le cahier des charges ? N'y a t'il pas une utilisation de l'application qui pourait
+                    causer des bugs avec mon script tel qu'il est réalisé maintenant ? Ai - je vraiement pensé à tout ?
+                    Enfin je réitère ce processus jusqu'à mener à bien le projet à livrer à temps.</p>
+                <div class="main_firstSection_container_imageContainer">
+                    <img class="main_firstSection_container_imageContainer_image" src="assets/images/methode.png"
+                        alt="Schéma de ma méthodologie de travail">
+                </div>
+            </div>
+        </section>
+        <!-- second section -->
+        <section class="main_secondSection">
+            <h2 class="main_secondSection_title">
+                Technologies en cours d'aquisitions
+            </h2>
+            <div class="owl-carousel owl-theme main_secondSection_container">
+                <div class="item main_secondSection_container_item">
+                    <i
+                        class="fa-brands fa-html5 main_secondSection_itemContainer_item_icon main_secondSection_itemContainer_item_orangeredIcon"></i>
+                </div>
+                <div class="item main_secondSection_itemContainer_item">
+                    <i
+                        class="fa-brands fa-css3-alt main_secondSection_itemContainer_item_icon main_secondSection_itemContainer_item_blueIcon"></i>
+                </div>
+                <div class="item main_secondSection_itemContainer_item">
+                    <i
+                        class="fa-brands fa-sass main_secondSection_itemContainer_item_icon main_secondSection_itemContainer_item_violetIcon"></i>
+                </div>
+                <div class="item main_secondSection_itemContainer_item">
+                    <i
+                        class="fa-brands fa-js main_secondSection_itemContainer_item_icon main_secondSection_itemContainer_item_yellowIcon"></i>
+                </div>
+                <div class="item main_secondSection_itemContainer_item">
+                    <i
+                        class="fa-brands fa-vuejs main_secondSection_itemContainer_item_icon main_secondSection_itemContainer_item_whiteIcon"></i>
+                </div>
+                <div class="item main_secondSection_itemContainer_item">
+                    <i
+                        class="fa-brands fa-node main_secondSection_itemContainer_item_icon main_secondSection_itemContainer_item_greenIcon"></i>
+                </div>
+                <div class="item main_secondSection_itemContainer_item">
+                    <i
+                        class="fa-brands fa-envira main_secondSection_itemContainer_item_icon main_secondSection_itemContainer_item_limegreenIcon"></i>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer_container">
+            <h3 class="footer_container_title">Me contacter</h3>
+            <form class="footer_container_form" id="form" action="https://formspree.io/f/maykqrlv" method="POST">
+                <div class="footer_container_form_container">
+                    <label class="footer_container_form_container_emailLabel" for="email">Votre email</label>
+                    <input class="footer_container_form_container_emailInput" type="email" id="email" name="email"
+                        required />
+                </div>
+                <div class="footer_container_form_container">
+                    <label class="footer_container_form_container_messageLabel" for="message">Votre message</label>
+                    <textarea class="footer_container_form_container_inputMessage" id="message" name="message"
+                        required></textarea>
+                </div>
+                <div class="footer_container_form_containerButtonContainer">
+                    <div class="footer_container_form_containerButtonContainer_buttonContainer">
+                        <button class="footer_container_form_containerButtonContainer_buttonContainer_button"
+                            type="submit" id="submitButton">
+                            Envoyer
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </footer>
+    <!-- popup -->
+    <div class="popup">
+        <div class="popup_container__displayNone">
+            <div class="popup_container_iconContainer">
+                <span id="popupCloseIcon"><i class="fa-solid fa-xmark popup_container_iconContainer_icon"></i></span>
+            </div>
 
-        <!-- carousel -->
-        <script src="assets/js/carousel.js"></script>
-        <!-- form -->
-        <script src="assets/js/form.js"></script>
-        <!-- popup -->
-        <script src="assets/js/popup.js"></script>
-    </body>
+            <p class="popup_container_status" id="status"></p>
+        </div>
+    </div>
+
+    <!-- carousel -->
+    <script src="assets/js/carousel.js"></script>
+    <!-- form -->
+    <script src="assets/js/form.js"></script>
+    <!-- popup -->
+    <script src="assets/js/popup.js"></script>
+</body>
+
 </html>

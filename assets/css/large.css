@@ -18,6 +18,17 @@
         }
     }
 
+    /* First section */
+
+    .main_firstSection_container {
+        width: 1200px;
+        margin: auto;
+    }
+
+    .main_firstSection_container_imageContainer_image {
+        width: 50%;
+    }
+
     /* Second section */
 
     .main_secondSection_container {

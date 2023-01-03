@@ -62,15 +62,12 @@
 
     /* first section */
 
-    .main_firstSection_container {
-        padding: 20px;
-    }
     .main_firstSection_container_title {
         font-size: 135%;
     }
 
-    .main_firstSection_container_table_row_col {
-        font-size: 100%;
+    .main_firstSection_container_imageContainer_image {
+        width: 75%;
     }
 
     /* second section */
