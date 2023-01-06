@@ -38,6 +38,8 @@ body {
 
 .header_linkIconContainer_link_icon {
     color: #fff;
+    font-size: 24px;
+    margin:5px
 }
 
 /* info */
