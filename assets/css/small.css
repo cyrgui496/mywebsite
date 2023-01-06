@@ -10,7 +10,7 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 10px;
-    background-color: #6C35CA;
+    background-color: #4169e1;
     color: #fff;
 }
 
@@ -88,7 +88,6 @@ body {
 .main_firstSection {
     padding: 10px;
     color: #262626;
-    background-color: #7fffd4;
 }
 
 .main_firstSection_container_title {
@@ -112,9 +111,8 @@ body {
 
 /* second section */
 .main_secondSection {
-    background-color: #7B457F;
     padding: 10px;
-    color: #fff;
+    color: #262626;
 }
 
 .main_secondSection_title {
@@ -140,10 +138,6 @@ body {
     color: #ee82ee;
 }
 
-.main_secondSection_itemContainer_item_whiteIcon {
-    color: #fff;
-}
-
 .main_secondSection_itemContainer_item_yellowIcon {
     color: #ffff00;
 }
@@ -154,6 +148,10 @@ body {
 
 .main_secondSection_itemContainer_item_limegreenIcon {
     color: #32cd32;
+}
+
+.main_secondSection_itemContainer_item_cyanIcon {
+    color: #00ffff;
 }
 
 /* footer */

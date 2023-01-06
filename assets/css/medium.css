@@ -19,23 +19,8 @@
     }
 
     .header_linkIconContainer_link_icon {
-        font-size: 24px;
+        font-size: 32px;
         margin: 5px;
-    }
-
-    /* nav */
-
-    .nav_linkContainer {
-        width: 200px;
-    }
-
-    .nav_linkContainer_link {
-        font-size: 100%;
-    }
-
-    .nav_linkIconContainer_link_icon {
-        font-size: 24px;
-        margin-left: -22.5px;
     }
 
     /* info */
