@@ -33,4 +33,4 @@ async function handleSubmit(event) {
                 "il y a eu un problème lors de la soumission de votre formulaire";
         });
 }
-form.addEventListener("submit", handleSubmit, {passive: true});
+form.addEventListener("submit", handleSubmit);
